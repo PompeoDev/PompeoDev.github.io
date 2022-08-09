@@ -1,0 +1,68 @@
+.footer {
+  background-color: #000000;
+}
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+  position: relative;
+  align-items: center;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+.footer-contatos li {
+  font-weight: bold;
+  font: 2.25rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: right;
+}
+.footer-contatos li a {
+  color: #fff;
+}
+.footer-copy {
+  color: #8f8f8f;
+}
+.footer-numero::before {
+  content: "Número: ";
+  color: #8f8f8f;
+}
+.footer-instagram::before {
+  content: "Instagram: ";
+  color: #8f8f8f;
+}
+.footer-linkedin::before {
+  content: "Linkedin: ";
+  color: #8f8f8f;
+}
+.footer-behance::before {
+  content: "Behance: ";
+  color: #8f8f8f;
+}
+.footer-github::before {
+  content: "Github: ";
+  color: #8f8f8f;
+}
+.footer-email::before {
+  content: "Email: ";
+  color: #8f8f8f;
+}
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px 60px 20px;
+  }
+  .footer-contatos li {
+    text-align: center;
+  }
+  .footer-copy {
+    font-size: 0.725rem;
+  }
+}
