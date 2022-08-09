@@ -50,6 +50,9 @@
     height: 10px;
     left: 0px;
   }
+  .introducao img {
+    border: 50%;
+  }
 }
 @media (max-width: 400px) {
   .introducao img {
