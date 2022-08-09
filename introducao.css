@@ -28,6 +28,9 @@
   font-size: 1.5rem;
   color: #525252;
 }
+.introducao img {
+  border-radius: 50%;
+}
 
 @media (max-width: 1000px) {
   .introducao h1 {
@@ -49,9 +52,6 @@
     width: 30px;
     height: 10px;
     left: 0px;
-  }
-  .introducao img {
-    border-radius: 50%;
   }
 }
 @media (max-width: 400px) {
